@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: zktutorial
+
+client:
+  zookeeper:
+    url: localhost:2181
+    sessionTimeout: 15000
+    connectionTimeout: 5000
+
+server:
+  port: ${SERVER_PORT}
